@@ -20,19 +20,19 @@ namespace GradeBook.GradeBooks
             {
                 return 'A';
             }
-            if (averageGrade < 80 || averageGrade >= 60)
+            else if (averageGrade < 80 && averageGrade >= 60)
             {
                 return 'B';
             }
-            if (averageGrade < 60 || averageGrade >= 40)
+            else if (averageGrade < 60 && averageGrade >= 40)
             {
                 return 'C';
             }
-            if (averageGrade < 40 || averageGrade >= 20)
+            if (averageGrade < 40 && averageGrade >= 20)
             {
                 return 'D';
             }
-            return 'F';
+             else return 'F';
         }
     }
 }
