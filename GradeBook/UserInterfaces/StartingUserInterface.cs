@@ -43,14 +43,14 @@ namespace GradeBook.UserInterfaces
             if (name == "standard")
             {
                 BaseGradeBook gradeBook = new StandardGradeBook(name);
-                Console.WriteLine("Created gradebook {0}.", name);
-                GradeBookUserInterface.CommandLoop(gradeBook);
+                //Console.WriteLine("Created gradebook {0}.", name);
+                //GradeBookUserInterface.CommandLoop(gradeBook);
             }
             else if (name == "ranked")
             {
                 BaseGradeBook gradeBook = new RankedGradeBook(name);
-                Console.WriteLine("Created gradebook {0}.", name);
-                GradeBookUserInterface.CommandLoop(gradeBook);
+                //Console.WriteLine("Created gradebook {0}.", name);
+                //GradeBookUserInterface.CommandLoop(gradeBook);
             }
             else
             {
